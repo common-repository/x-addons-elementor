@@ -1,0 +1,1043 @@
+/* =============================================================
+Author Name: X Addons Elementor Styles
+Description: CSS files of XA Styles
+Version:	1.0.0
+================================================================*/   
+
+/*----------------------------------------*/
+/*  XAddons Default Style
+/*----------------------------------------*/
+:root {
+	--xa-primary: #FC6761;
+	--xa-primary-bg: #FC6761;
+	--xa-secondary: #273C66;
+	--xa-secondary-bg: #273C66;
+	--xa-text: #777;
+	--xa-font-normal: 400;
+	--xa-font-medium: 500;
+	--xa-font-semi: 600;
+	--xa-font-bold: 600;
+}
+
+.xa-wrapper h1,
+.xa-wrapper h2,
+.xa-wrapper h3,
+.xa-wrapper h4,
+.xa-wrapper h5,
+.xa-wrapper h6,
+.xa-wrapper h1 a,
+.xa-wrapper h2 a,
+.xa-wrapper h3 a,
+.xa-wrapper h4 a,
+.xa-wrapper h5 a,
+.xa-wrapper h6 a{
+	margin:0;
+}
+.xa-wrapper{
+	font-size: 15px;
+	color:var(--xa-secondary);
+}
+.xa-wrapper p{
+	margin:0;
+}
+.xa-wrapper a{
+	color: var(--xa-primary);
+}
+/* Default Color */
+.xa-primary{
+  color: var(--xa-primary);
+}
+.xa-primary-bg{
+  background-color: var(--xa-primary-bg);
+}
+.xa-secondary{
+  color: var(--xa-secondary);
+}
+.xa-secondary-bg{
+  background-color: var(--xa-secondary-bg);
+}
+.xa-text{
+  color: var(--xa-text);
+}
+/* Default Fonts */
+.xa-font-normal{
+  font-weight: var(--xa-font-normal);
+}
+.xa-font-medium{
+  font-weight: var(--xa-font-medium);
+}
+.xa-font-semi{
+  font-weight: var(--xa-font-semi);
+}
+.xa-font-bold{
+  font-weight: var(--xa-font-bold);
+}
+.xa-wrapper ul,.xa-wrapper ul li,
+.xa-wrapper ol, .xa-wrapper ol li{
+  font-weight: var(--xa-font-normal);
+}
+.xa-wrapper .xa-buttons__btn{
+  font-weight: var(--xa-font-medium);
+}
+.xa-wrapper .xa-heading{
+  font-weight: var(--xa-font-bold);
+}
+.text-left{
+	text-align: left !important;
+}
+.text-center{
+	text-align: center !important;
+}
+.text-end{
+	text-align: right !important;
+}
+/* Xa Slider Nav */
+.xa-slider-nav {
+	display: flex;
+	gap: 10px;
+	margin-top: 30px;
+	justify-content: center;
+}
+  .xa-slider-nav > div {
+	background: #FAFAFA;
+	width: 36px;
+	height: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	border: 1px solid #cccccc36;
+	cursor: pointer;
+}
+  .xa-slider-nav > div:hover{
+	background-color: var(--xa-primary-bg);
+	border-color:transparent;
+	color:#fff;
+  }
+
+  .slick-track {
+	margin-left: -12px !important;
+}
+  .slick-track .slick-slide {
+	margin-left: 15px !important;
+  }
+
+/* Slick Dots */
+  .slick-dots {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	gap: 8px;
+  }
+  .slick-dots li button {
+	background: transparent;
+	width: 12px;
+	height: 12px;
+	font-size: 0;
+	border-radius: 100%;
+	cursor: pointer;
+	border: 1px solid #666;
+}
+  .slick-dots li.slick-active button,.slick-dots li:hover button {
+	background: var(--xa-primary-bg);
+	border-color: transparent;
+  }
+/*----------------------------------------*/
+/*  End XAddons Default Style
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  Buttons
+/*----------------------------------------*/
+.xa-alignment {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	position: relative;
+}
+a.xa-buttons__btn {
+	font-size: 15px;
+	color: #fff;
+	background: var(--xa-primary);
+	padding: 14px 35px;
+	border-radius: 3px;
+	display: inline-block;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}	
+a.xa-buttons__btn:hover{
+	background-color: var(--xa-secondary);
+}
+.xa-buttons__inside {
+	display: flex;
+	gap: 5px;
+}
+/*----------------------------------------*/
+/*  End Buttons
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  Section Label
+/*----------------------------------------*/
+.xa-section-title__label {
+	color: var(--xa-primary);
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 0px;
+	display: block;
+	display: inline-block;
+	background: #FC67611C;
+	padding: 10px 20px;
+	border-radius: 3px;
+	border-radius: 30px;
+	margin-bottom: 10px;
+}
+.xa-section-title__heading {
+	font-size: 32px;
+	line-height: 47px;
+	font-weight: 700;
+	margin-bottom: 15px !important;
+}
+.xa-section-title__content {
+	margin-top: 10px;
+}
+/*----------------------------------------*/
+/*  End Section Label
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  Hero Area
+/*----------------------------------------*/
+.xa-hero-personal {
+	position: relative;
+	overflow: hidden;
+	height: 700px;
+	background: #fafafa;
+}
+.xa-hero-personal__content {
+	z-index: 3333;
+	position: relative;
+	margin-top: 165px;
+}
+.hero-title-slider {
+	margin-bottom: 10px;
+}
+.xa-hero-personal__label {
+	color: #bbb;
+	font-weight: 500;
+	font-size: 24px;
+}
+.single-title-slider {
+	display: inline-block;
+}
+.single-title-slider h5 span {
+	color: #fff;
+	font-size: 70px;
+	text-transform: uppercase;
+	background: var(--xa-primary-bg);
+	padding: 10px 30px;
+	display: inline-block;
+	padding: 30px;
+}
+.typed-cursor {
+	margin-left: 10px;
+	color: var(--xa-primary);
+	font-size: 35px;
+	font-size: 0px;
+}
+.xa-hero-personal__content h2 {
+	font-size: 23px;
+}
+.xa-hero-personal__title {
+	font-size: 62px;
+	margin-bottom: 15px;
+	color: var(--xa-secondary);
+	line-height: 72px;
+	font-weight: 700 !important;
+}
+.xa-hero-personal__title span {
+	color: var(--xa-primary);
+}
+.single-title-slider h5 {
+	font-weight: 500;
+	font-size: 28px;
+	color: VAR(--XA-SECONDARY);
+	cursor: pointer;
+	display: block;
+	line-height: 35px;
+}
+.xa-hero-personal__text {
+	margin-bottom: 30px;
+	color: var(--xa-text);
+	font-size: 16px;
+}
+.xa-hero-personal__btn {
+	margin-top: 30px;
+}
+.xa-hero-personal__btn .theme-btn.video {
+	background: #fff;
+	margin: 0;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 30px;
+	display: inline-block;
+	cursor: pointer;
+}
+.xa-hero-personal__btn .theme-btn.video:hover {
+	background: var(--xa-secondary);
+	border-color: transparent;
+	color: #fff;
+}
+.xa-hero-personal__btn .theme-btn.video i {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background: var(--xa-primary);
+	color: #fff;
+	border: none;
+}
+.xa-hero-personal__btn .theme-btn i {
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	display: inline-block;
+	text-align: center;
+	background: #fff;
+	color: var(--xa-primary);
+	font-size: 13px;
+	border-radius: 30px;
+	margin-right: 8px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	border:1px solid var(--xa-primary);
+}
+.xa-hero-personal__img {
+	z-index: 3333;
+	position: relative;
+	margin: ;
+	padding-top: 50px;
+}
+.animate-top-bottom img {
+	animation: TopBottomShake 15s infinite;
+}
+@keyframes TopBottomShake{
+	0%, 100%{
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	} 
+	10%, 30%, 50%, 70%, 90%{
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	} 
+	20%, 40%, 60%, 80%{
+		-webkit-transform: translateY(10px);
+		transform: translateY(10px);
+	}
+}
+@keyframes TopBottomShake_before{
+	0%, 100%{
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	} 
+	10%, 30%, 50%, 70%, 90%{
+		-webkit-transform: translateY(10px);
+		transform: translateY(10px);
+	} 
+	20%, 40%, 60%, 80%{
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.xa-hero-personal__label span {
+	color: var(--xa-primary);
+}
+
+/*----------------------------------------*/
+/*  End Hero Area
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  Service
+/*----------------------------------------*/
+.service-area {
+	padding: 80px 0px;
+	background: #fff;
+}
+.xa-service-card__icon {
+	width: 26%;
+	height: 100%;
+	background: #f5f5f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.xa-service-card:hover .xa-service-card__icon,
+.xa-service-card.xa-active .xa-service-card__icon{
+	background:var(--xa-primary-bg);
+}
+.xa-service-card.xa-active{
+	border:1px solid var(--xa-primary);
+}
+.xa-service-card:hover .service-icon i,
+.xa-service-card.xa-active .service-icon i {
+	background: #fff;
+	color: var(--xa-primary);
+	border: 1px solid transparent;
+}
+.xa-service-card:hover .xa-service-card__icon i {
+	border-color: transparent;
+}
+.xa-service-card__content {
+	padding: 30px 0 30px 30%;
+}
+.xa-service-card {
+	background: #fff;
+	border: 1px solid #eee;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	position: relative;
+	border-bottom: 20p;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 0 15px;
+}
+.xa-service-card:hover{
+	border:1px solid var(--xa-primary);
+}
+.xa-service-card__icon {
+	opacity: 1;
+}
+.xa-service-card:hover .xa-service-card__icon,
+.xa-service-card.xa-active .xa-service-card__icon{
+	opacity: 1;
+}
+.xa-service-card__icon i {
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	background: #fff;
+	display: block;
+	text-align: center;
+	border: 1px solid #eee;
+	font-size: 25px;
+	color: var(--xa-primary);
+	border-radius: 100%;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.xa-service-card__title {
+	margin-bottom: 5px !important;
+	font-size: 20px;
+}
+.xa-service-card:hover .xa-service-card__title a,
+.xa-service-card.xa-active .xa-service-card__title a{
+	color:#FC6761 !important;
+}
+/*----------------------------------------*/
+/*  End Service
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  Experience Image
+/*----------------------------------------*/
+.xa-ex-image {
+	text-align: center;
+	position: relative;
+	z-index: 55;
+}
+.xa-ex-image__hover {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 15px;
+	line-height: initial;
+}
+.xa-ex-image__content {
+	line-height: initial;
+	display: flex;
+	align-items: center;
+	background: var(--xa-primary-bg);
+	border-radius: 100% 0 0;
+}
+.xa-ex-image__number {
+	font-size: 120px;
+	font-weight: 700;
+	color: #fff;
+	line-height: initial;
+	line-height: 100%;
+	stroke: blanchedalmond;
+	text-shadow: 1px 1px 20px #0000000f;
+}
+.xa-ex-image__text {
+	z-index: 3333;
+	color: #fff;
+	display: inline-block;
+}
+/*----------------------------------------*/
+/*  End Experience Image
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  Xa List Style
+/*----------------------------------------*/
+.xa-list-styles__list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	gap: 15px;
+	display: flex;
+	flex-direction: column;
+  }
+  .xa-list-styles__list li {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	position: relative;
+	padding-left: 30px;
+}
+  .xa-list-styles__list  li:before,
+  .xa-list-styles__list  li:after{
+	content: "";
+	position: absolute;
+	left: 0;  
+	top: 6px;
+	border-radius: 100%;
+	background: #FC6761;
+	width: 15px;
+	height: 15px;
+  }
+  .xa-list-styles__list  li:after{
+	width: 5px;
+	height: 5px;
+	background: #fff;
+	left: 5px;
+	top: 11px;
+  } 
+  
+/*----------------------------------------*/
+/*  End Xa List Style
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  Skill & Experience Card
+/*----------------------------------------*/
+.xa-ex-card__single {
+	background: #fff;
+	box-shadow: 0px 0px 15px #0000000a;
+	padding: 35px;
+}
+.xa-ex-card__label {
+	background: var(--xa-primary-bg);
+	display: inline-block;
+	color: #fff;
+	padding: 6px 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	font-size: 14px;
+	border-radius: 30px;
+}
+.xa-ex-card__title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 5px !important;
+}
+.xa-ex-card__info {
+	font-size: 15px;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 500;
+	color: var(--xa-text);
+}
+.xa-progress__box {
+	background: #fff;
+	box-shadow: 0px 0px 15px #0000000a;
+	padding: 35px;
+	width: 100%;
+}
+.xa-progress__heading {
+	font-size: 22px;
+	margin-bottom: 25px !important;
+}
+.xa-progress__single {
+	margin-bottom: 20px;
+}
+.progress-title {
+	font-size: 15px;
+	color: #555;
+	margin: 0 0 20px !important;
+}
+  .progress-bar {
+	box-shadow: none;
+	position: relative;
+	-webkit-animation: animate-positive 2s;
+	animation: animate-positive 2s;
+	background: var(--xa-primary-bg);
+  }
+  .xa-progress__single .progress-bar {
+	box-shadow: none;
+	position: relative;
+	-webkit-animation: animate-positive 2s;
+	animation: animate-positive 2s;
+	background: var(--xa-primary-bg);
+	overflow: visible;
+	position: relative;
+	height: 100%;
+}
+
+  .progress-value {
+	font-size: 14px;
+	font-weight: 500;
+	color: #555;
+	position: absolute;
+	top: -40px;
+	right: 0;
+	z-index: 333;
+  }
+  .xa-progress__single .progress {
+	height: 10px;
+	background: #eee;
+	border-radius: 0;
+	box-shadow: none;
+	overflow: visible;
+  }
+  .progress-value::before {
+	content: "";
+	display: block;
+	border: 15px solid transparent;
+	border-bottom-width: 15px;
+	border-bottom-style: solid;
+	border-bottom-color: transparent;
+	border-bottom: 15px solid transparent;
+	border-bottom-color: transparent;
+	position: absolute;
+	right: -11px;
+	border-bottom-color: var(--xa-primary);
+	bottom: -28px;
+}
+  .xa-circle-progress__title {
+	text-align: center;
+	margin-top: 10px;
+	color: #555;
+	font-size: 16px;
+}
+  .xa-circle-progress__box {
+	background: #fff;
+	box-shadow: 0px 0px 15px #0000000a;
+	padding: 35px;
+}
+.xa-circle-progress__inside {
+	width: 100%;
+	text-align: center;
+}
+.xa-circle-progress__inner {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+  .xa-circle-progress__single {
+	position: relative;
+}
+
+.xa-circle-progress__percent{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--xa-primary);
+  }
+/*----------------------------------------*/
+/*  End Skill & Experience Card
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  Portfolio Slider
+/*----------------------------------------*/
+
+.xa-portfolio-slider__button {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 33;
+}
+  .xa-portfolio-slider__thumb {
+	position: relative;
+  }
+  .xa-portfolio-slider__button a {
+	background: #fff;
+	color: var(--xa-primary);
+	border: 1px solid transparent;
+	padding: 10px 30px;
+	border-radius: 50px;
+  }
+  .xa-portfolio-slider__single:hover .xa-portfolio-slider__button {
+	opacity: 1;
+	visibility: visible;
+  }
+  .xa-portfolio-slider__title {
+	font-size: 20px;
+	margin-top: 20px !important;
+}
+.xa-portfolio-slider__thumb{
+	position: relative;
+}
+.xa-portfolio-slider__overlay {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #181E4E;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+.xa-portfolio-slider__single:hover .xa-portfolio-slider__overlay {
+	opacity: 0.7;
+	visibility: visible;
+  }
+/*----------------------------------------*/
+/*  End Portfolio Slider
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  CTA Area
+/*----------------------------------------*/
+.xa-cta-area {
+	padding: 50px 50px;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(45deg,#FC6761,#1407b3);
+	gap: 40px;
+	justify-content: space-between !important;
+  }
+  .xa-cta-area__title {
+	color: #fff !important;
+	font-size: 36px;
+	margin-bottom: 15px !important;
+}
+  .xa-cta-area__title span {
+	text-decoration: underline;
+}
+.xa-cta-area__text {
+	font-size: 18px;
+	color: #fff !important;
+}
+  .xa-cta-area__button  .xa-buttons__btn {
+	background: #fff;
+	padding: 12px 25px;
+	color:var(--xa-primary);
+  }
+  .xa-cta-area__button {
+	min-width: 30%;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+  }
+  .xa-cta-area__button .xa-buttons__btn i {
+	margin-right: 5px;
+}
+/*----------------------------------------*/
+/* End CTA Area
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  Testimonial Area
+/*----------------------------------------*/
+.xa-single-testimonial {
+	background: #fff;
+	padding: 30px;
+	text-align: center;
+	position: relative;
+	margin: 40px 0px 0;
+	box-shadow: 0px 0px 15px #00000012;
+	display: flex !important;
+	flex-direction: column;
+	gap: 30px;
+}
+.xa-single-testimonial::before{
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 2px;
+	bottom: 0;
+	background: var(--xa-primary-bg);
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.xa-single-testimonial:hover::before{
+	width:100%;
+	opacity: 1;
+	visibility: visible;
+}
+  .xa-single-testimonial__head {
+	text-align: center;
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	margin-left: -40px;
+	width: 80px;
+	border: 5px solid #fff;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+  }
+  .xa-single-testimonial__title {
+	font-size: 20px;
+	margin-bottom: 15px !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	color: var(--xa-primary);
+}
+.xa-single-testimonial__author {
+	font-size: 18px;
+}
+.xa-single-testimonial__desc {
+	font-size: 15px;
+	font-style: italic;
+	color: var(--xa-text);
+}
+  .xa-single-testimonial__label {
+	font-size: 14px;
+	color: #666;
+  }
+  .xa-single-testimonial__content {
+	padding-top: 30px;
+}
+/*----------------------------------------*/
+/*  End Testimonial Area
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  Funfact Area
+/*----------------------------------------*/
+.xa-funfact {
+	position: relative;
+	text-align: center;
+	border: 5px solid #ffffff3b;
+	padding: 40px;
+  }
+  .xa-funfact.xa-active{
+	border-color:var(--xa-primary);
+  }
+  .xa-funfact__title {
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #fff;
+  }
+  .xa-funfact__desc {
+	font-size: 15px;
+	color: #f9f9f9;
+  }
+/*----------------------------------------*/
+/*  End Funfact Area
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  Contact Area
+/*----------------------------------------*/
+.xa-contact-form__head {
+	margin-bottom: 15px;
+}
+.xa-contact-single {
+	background: #fff;
+	box-shadow: 0px 0px 15px #0000000a;
+	padding: 30px;
+	margin-bottom: 15px;
+	position: relative;
+	border-radius: 4px;
+	display: block;
+	display: flex;
+	gap: 20px;
+}
+.xa-contact-single__icon {
+	/*! position: absolute; */
+	width: 50px;
+	height: 50px;
+	background: #EAEDF6;
+	text-align: center;
+	line-height: 50px;
+	color: var(--xa-primary);
+	border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-size: 17px;
+  }
+  .xa-contact-single__label {
+	display: block;
+	color: #181E4E;
+	font-size: 17px;
+	font-weight: 500;
+  }
+  .xa-contact-single:hover .xa-contact-single__icon {
+	border-radius: 100%;
+	background: var(--xa-primary-bg);
+	color: #fff !important;
+  }
+
+  .xa-contact-form {
+	padding: 50px;
+	background: #fff;
+	box-shadow: 0px 0px 15px #0000000a;
+	border-radius: 4px;
+}
+  .xa-contact-form__body .form-group {
+	margin-top: 20px;
+  }
+  .xa-contact-form__body .form-group label {
+	margin-bottom: 10px;
+  }
+  .xa-contact-form__body  .contact-btn {
+	margin-top: 30px;
+  }
+
+.xa-contact-form__body input,
+.xa-contact-form__body textarea {
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  border: 1px solid #e6e2f5;
+  padding: 0px 20px;
+  color: VAR(--XA-SECONDARY);
+  border-radius: 0px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.xa-contact-form__body textarea {
+  height: 150px;
+}
+
+.xa-contacts__title {
+	font-size: 17px;
+	font-weight: 500;
+	background: var(--xa-primary-bg);
+	display: inline-block;
+	color: #fff;
+	padding: 10px 20px;
+	margin-bottom: 15px !important;
+	border-radius: 2px;
+}
+  .xa-contacts__text {
+	color: #666;
+	margin: 0;
+	line-height: 24px;
+  }
+  .xa-contacts__heading {
+	margin-bottom: 30px;
+  }
+  .xa-contact-form__body .contact-btn button {
+	min-width: initial;
+	width: initial;
+	border: none;
+	padding: 20px 30px;
+	color:#fff;
+}
+.xa-contact-form__body .contact-btn button:hover{
+	background-color:var(--xa-secondary);
+}
+.xa-contact-form__label {
+	font-size: 18px;
+	margin-bottom: 10px !important;
+}
+  .xa-contact-form__title {
+	font-size: 24px;
+	margin-top: 10px;
+  }
+/*----------------------------------------*/
+/*  End Contact Area
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  Brand Slider
+/*----------------------------------------*/
+.xa-brand-slider {
+	background: linear-gradient(45deg,#FC6761,#1407b3);
+	padding: 50px 0px;
+}
+.xa-brand-slider .slick-dots li button {
+	border-color: #fff;
+}
+.xa-brand-slider .slick-dots li.slick-active button,
+.xa-brand-slider .slick-dots li:hover button{
+	border-color:transparent;
+}
+/*----------------------------------------*/
+/*  End Brand Slider
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  Blog Area
+/*----------------------------------------*/
+.xa-blog-single__body {
+	margin-top: 15px;
+}
+.xa-blog-single__date {
+	color: var(--xa-primary);
+	margin-bottom: 5px;
+	display: block;
+	font-size: 15px;
+}
+.xa-blog-single__title {
+	margin-bottom: 10px !important;
+}
+.xa-blog-single__btn {
+	margin-top: 30px;
+}
+.xa-blog-single__btn a {
+	background: var(--xa-primary);
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff !important;
+}
+.xa-blog-single__btn a:hover{
+	background-color: var(--xa-secondary);
+	color:#fff;
+}
+/*----------------------------------------*/
+/*  End Blog Area
+/*----------------------------------------*/

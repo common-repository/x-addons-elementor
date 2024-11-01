@@ -1,0 +1,642 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: X Addons for Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-01 20:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: x-addons-elementor"
+
+#. 1: Plugin name 2: Elementor
+#: includes/plugin.php:130
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Plugin name 2: Elementor 3: Required Elementor version
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: includes/plugin.php:153 includes/plugin.php:177
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: includes/widgets/xa-ex-card.php:103 includes/widgets/xa-section-title.php:92
+#: includes/widgets/xa-service-card.php:122
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/xa-circle-progress.php:100
+msgid "Alignment & Position Styles"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:82
+msgid "All Animate List"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:82
+msgid "All Brand List"
+msgstr ""
+
+#: includes/widgets/xa-circle-progress.php:82
+#: includes/widgets/xa-contact-card.php:127
+#: includes/widgets/xa-list-style.php:101
+#: includes/widgets/xa-progress-list.php:82
+msgid "All List"
+msgstr ""
+
+#: includes/widgets/xa-portfolio-slider.php:81
+#: includes/widgets/xa-testimonials.php:100
+msgid "All Portfolio List"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:61
+msgid "Animate Label"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:74
+msgid "Animate Text"
+msgstr ""
+
+#: includes/widgets/xa-testimonials.php:80
+msgid "Author Name"
+msgstr ""
+
+#: includes/widgets/xa-testimonials.php:89
+msgid "Author Position"
+msgstr ""
+
+#: includes/widgets/xa-testimonials.php:71
+msgid "Author Review"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:160
+#: includes/widgets/xa-portfolio-slider.php:159
+#: includes/widgets/xa-testimonials.php:178
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:43
+msgid "Brand Carousel"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:88
+msgid "Brand Information"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:72
+msgid "Brand Link"
+msgstr ""
+
+#: includes/widgets/xa-button.php:111
+msgid "Button Alignment"
+msgstr ""
+
+#: includes/widgets/xa-button.php:45
+msgid "Button Content"
+msgstr ""
+
+#: includes/widgets/xa-button.php:64
+#: includes/widgets/xa-portfolio-slider.php:71
+#: includes/widgets/xa-service-card.php:74
+msgid "Button Link"
+msgstr ""
+
+#: includes/widgets/xa-button.php:103
+msgid "Button Styles"
+msgstr ""
+
+#: includes/widgets/xa-button.php:53
+msgid "Button Text"
+msgstr ""
+
+#: includes/widgets/xa-button.php:119 includes/widgets/xa-button.php:148
+#: includes/widgets/xa-circle-progress.php:116
+#: includes/widgets/xa-circle-progress.php:145
+#: includes/widgets/xa-ex-card.php:111 includes/widgets/xa-ex-card.php:140
+#: includes/widgets/xa-list-style.php:135
+#: includes/widgets/xa-list-style.php:164
+#: includes/widgets/xa-progress-list.php:116
+#: includes/widgets/xa-progress-list.php:145
+#: includes/widgets/xa-section-title.php:100
+#: includes/widgets/xa-section-title.php:129
+#: includes/widgets/xa-service-card.php:130
+#: includes/widgets/xa-service-card.php:159
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:184
+#: includes/widgets/xa-portfolio-slider.php:183
+#: includes/widgets/xa-testimonials.php:202
+msgid "Center Mode?"
+msgstr ""
+
+#: includes/widgets/xa-circle-progress.php:42
+msgid "Circle Style"
+msgstr ""
+
+#. Author of the plugin
+msgid "CodeGlim"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:60
+msgid "Contact Description"
+msgstr ""
+
+#: includes/widgets/xa-contact-form7.php:49
+msgid "Contact Form"
+msgstr ""
+
+#: includes/widgets/xa-contact-form7.php:89
+msgid "Contact Form 7 Form"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:73
+msgid "Contact Icon"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:93
+msgid "Contact Info"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:84
+#: includes/widgets/xa-contact-form7.php:66
+msgid "Contact Label"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:51
+#: includes/widgets/xa-contact-form7.php:76
+msgid "Contact Title"
+msgstr ""
+
+#: includes/widgets/xa-cta.php:79
+msgid "CTA Button Text"
+msgstr ""
+
+#: includes/widgets/xa-cta.php:90
+msgid "CTA Button URL"
+msgstr ""
+
+#: includes/widgets/xa-cta.php:67
+msgid "CTA Description"
+msgstr ""
+
+#: includes/widgets/xa-cta.php:56
+msgid "CTA Title"
+msgstr ""
+
+#: includes/plugin.php:132 includes/plugin.php:155
+msgid "Elementor"
+msgstr ""
+
+#: includes/widgets/xa-ex-card.php:72
+msgid "Experiences Info"
+msgstr ""
+
+#: includes/widgets/xa-ex-card.php:83 includes/widgets/xa-ex-image.php:72
+msgid "Experiences Text"
+msgstr ""
+
+#: includes/widgets/xa-ex-card.php:61
+msgid "Experiences Title"
+msgstr ""
+
+#: includes/widgets/xa-ex-card.php:51 includes/widgets/xa-ex-image.php:61
+msgid "Experiences Year"
+msgstr ""
+
+#: includes/widgets/xa-contact-form7.php:57
+msgid "Form Class"
+msgstr ""
+
+#: includes/widgets/xa-section-title.php:72
+#: includes/widgets/xa-service-card.php:83
+msgid "Heading Content"
+msgstr ""
+
+#: includes/widgets/xa-section-title.php:50
+msgid "Heading Label"
+msgstr ""
+
+#: includes/widgets/xa-section-title.php:84
+msgid "Heading Styles"
+msgstr ""
+
+#: includes/widgets/xa-circle-progress.php:50
+#: includes/widgets/xa-progress-list.php:50
+#: includes/widgets/xa-section-title.php:61
+#: includes/widgets/xa-service-card.php:63
+msgid "Heading Title"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:42
+#: includes/widgets/xa-hero-personal.php:108
+msgid "Hero Content"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:141
+msgid "Hero Shape"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:149
+msgid "Hero Shape 1"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:157
+msgid "Hero Shape 2"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:165
+msgid "Hero Shape 3"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:50
+msgid "Hero Thumbnail"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:97
+msgid "Hero Title"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:151
+#: includes/widgets/xa-brand-logos.php:175
+#: includes/widgets/xa-brand-logos.php:187
+#: includes/widgets/xa-brand-logos.php:211
+#: includes/widgets/xa-brand-logos.php:224
+#: includes/widgets/xa-portfolio-slider.php:150
+#: includes/widgets/xa-portfolio-slider.php:174
+#: includes/widgets/xa-portfolio-slider.php:186
+#: includes/widgets/xa-portfolio-slider.php:210
+#: includes/widgets/xa-portfolio-slider.php:223
+#: includes/widgets/xa-testimonials.php:169
+#: includes/widgets/xa-testimonials.php:193
+#: includes/widgets/xa-testimonials.php:205
+#: includes/widgets/xa-testimonials.php:229
+#: includes/widgets/xa-testimonials.php:242
+msgid "Hide"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codeglim.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://codeglim.com/plugins/xaddons-elementor"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:75 includes/widgets/xa-button.php:67
+#: includes/widgets/xa-cta.php:93
+msgid "https://example-site.com"
+msgstr ""
+
+#: includes/widgets/xa-ex-card.php:42
+msgid "Image Content"
+msgstr ""
+
+#: includes/widgets/xa-ex-image.php:50
+msgid "Image Thumbnail"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:63
+msgid "Image Title"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:133
+msgid "Information"
+msgstr ""
+
+#: includes/widgets/xa-button.php:115 includes/widgets/xa-button.php:144
+#: includes/widgets/xa-circle-progress.php:112
+#: includes/widgets/xa-circle-progress.php:141
+#: includes/widgets/xa-ex-card.php:107 includes/widgets/xa-ex-card.php:136
+#: includes/widgets/xa-list-style.php:131
+#: includes/widgets/xa-list-style.php:160
+#: includes/widgets/xa-progress-list.php:112
+#: includes/widgets/xa-progress-list.php:141
+#: includes/widgets/xa-section-title.php:96
+#: includes/widgets/xa-section-title.php:125
+#: includes/widgets/xa-service-card.php:126
+#: includes/widgets/xa-service-card.php:155
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/xa-circle-progress.php:108
+#: includes/widgets/xa-list-style.php:127
+#: includes/widgets/xa-progress-list.php:108
+msgid "List Alignment"
+msgstr ""
+
+#: includes/widgets/xa-circle-progress.php:88
+#: includes/widgets/xa-hero-personal.php:88
+#: includes/widgets/xa-list-style.php:65 includes/widgets/xa-list-style.php:107
+#: includes/widgets/xa-progress-list.php:88
+msgid "List Info"
+msgstr ""
+
+#: includes/widgets/xa-circle-progress.php:62
+#: includes/widgets/xa-list-style.php:52
+#: includes/widgets/xa-progress-list.php:62
+msgid "List Label"
+msgstr ""
+
+#: includes/widgets/xa-circle-progress.php:72
+#: includes/widgets/xa-progress-list.php:72
+msgid "List Percent"
+msgstr ""
+
+#: includes/widgets/xa-list-style.php:42
+#: includes/widgets/xa-progress-list.php:42
+msgid "List Style"
+msgstr ""
+
+#: includes/widgets/xa-list-style.php:119
+#: includes/widgets/xa-progress-list.php:100
+msgid "List Styles"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:108
+#: includes/widgets/xa-list-style.php:83
+#: includes/widgets/xa-service-card.php:101
+msgid "No"
+msgstr ""
+
+#: includes/widgets/xa-button.php:56
+msgid "Our Services"
+msgstr ""
+
+#: includes/plugin.php:179
+msgid "PHP"
+msgstr ""
+
+#: includes/widgets/xa-portfolio-slider.php:87
+#: includes/widgets/xa-testimonials.php:106
+msgid "Portfolio Information"
+msgstr ""
+
+#: includes/widgets/xa-portfolio-slider.php:43
+msgid "Portfolio Slider"
+msgstr ""
+
+#: includes/widgets/xa-testimonials.php:62
+msgid "Review Title"
+msgstr ""
+
+#: includes/widgets/xa-button.php:123 includes/widgets/xa-button.php:152
+#: includes/widgets/xa-circle-progress.php:120
+#: includes/widgets/xa-circle-progress.php:149
+#: includes/widgets/xa-ex-card.php:115 includes/widgets/xa-ex-card.php:144
+#: includes/widgets/xa-list-style.php:139
+#: includes/widgets/xa-list-style.php:168
+#: includes/widgets/xa-progress-list.php:120
+#: includes/widgets/xa-progress-list.php:149
+#: includes/widgets/xa-section-title.php:104
+#: includes/widgets/xa-section-title.php:133
+#: includes/widgets/xa-service-card.php:134
+#: includes/widgets/xa-service-card.php:163
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/xa-section-title.php:42
+#: includes/widgets/xa-service-card.php:42
+msgid "Section Content"
+msgstr ""
+
+#: includes/widgets/xa-service-card.php:96
+msgid "Service Active"
+msgstr ""
+
+#: includes/widgets/xa-service-card.php:114
+msgid "Service Styles"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:150
+#: includes/widgets/xa-brand-logos.php:174
+#: includes/widgets/xa-brand-logos.php:186
+#: includes/widgets/xa-brand-logos.php:210
+#: includes/widgets/xa-brand-logos.php:223
+#: includes/widgets/xa-portfolio-slider.php:149
+#: includes/widgets/xa-portfolio-slider.php:173
+#: includes/widgets/xa-portfolio-slider.php:185
+#: includes/widgets/xa-portfolio-slider.php:209
+#: includes/widgets/xa-portfolio-slider.php:222
+#: includes/widgets/xa-testimonials.php:168
+#: includes/widgets/xa-testimonials.php:192
+#: includes/widgets/xa-testimonials.php:204
+#: includes/widgets/xa-testimonials.php:228
+#: includes/widgets/xa-testimonials.php:241
+msgid "Show"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:116
+msgid "Sinlge Page URL"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:148
+#: includes/widgets/xa-portfolio-slider.php:147
+#: includes/widgets/xa-testimonials.php:166
+msgid "Slide Autoplay?"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:118
+#: includes/widgets/xa-portfolio-slider.php:117
+#: includes/widgets/xa-testimonials.php:136
+msgid "Slide Column Laptop"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:108
+#: includes/widgets/xa-portfolio-slider.php:107
+#: includes/widgets/xa-testimonials.php:126
+msgid "Slide Column Large"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:138
+#: includes/widgets/xa-portfolio-slider.php:137
+#: includes/widgets/xa-testimonials.php:156
+msgid "Slide Column Mobile"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:128
+#: includes/widgets/xa-portfolio-slider.php:127
+#: includes/widgets/xa-testimonials.php:146
+msgid "Slide Column Tab"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:221
+#: includes/widgets/xa-portfolio-slider.php:220
+#: includes/widgets/xa-testimonials.php:239
+msgid "Slide Dots"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:172
+#: includes/widgets/xa-portfolio-slider.php:171
+#: includes/widgets/xa-testimonials.php:190
+msgid "Slide Loop?"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:208
+#: includes/widgets/xa-portfolio-slider.php:207
+#: includes/widgets/xa-testimonials.php:226
+msgid "Slide Nav"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:199
+#: includes/widgets/xa-portfolio-slider.php:198
+#: includes/widgets/xa-testimonials.php:217
+msgid "Slide Speed while changes"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:100
+#: includes/widgets/xa-portfolio-slider.php:99
+#: includes/widgets/xa-testimonials.php:118
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/widgets/xa-testimonials.php:43
+msgid "Testimonials Slider"
+msgstr ""
+
+#: includes/widgets/xa-ex-card.php:95
+msgid "Text & Alignment Position"
+msgstr ""
+
+#: includes/widgets/xa-button.php:139
+#: includes/widgets/xa-circle-progress.php:136
+#: includes/widgets/xa-ex-card.php:131 includes/widgets/xa-list-style.php:155
+#: includes/widgets/xa-progress-list.php:136
+#: includes/widgets/xa-section-title.php:120
+#: includes/widgets/xa-service-card.php:150
+msgid "Text Position"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Ultimate Elementor Addons."
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:52
+#: includes/widgets/xa-portfolio-slider.php:52
+#: includes/widgets/xa-testimonials.php:52
+msgid "Thumbnail logo"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:87
+#: includes/widgets/xa-circle-progress.php:87
+#: includes/widgets/xa-contact-card.php:132
+#: includes/widgets/xa-hero-personal.php:87
+#: includes/widgets/xa-list-style.php:106
+#: includes/widgets/xa-portfolio-slider.php:86
+#: includes/widgets/xa-progress-list.php:87
+#: includes/widgets/xa-testimonials.php:105
+msgid "Title #1"
+msgstr ""
+
+#: includes/widgets/xa-portfolio-slider.php:62
+msgid "Type Title"
+msgstr ""
+
+#: includes/widgets/xa-list-style.php:91
+msgid "URL Link"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:103
+#: includes/widgets/xa-list-style.php:78
+msgid "Use Link?"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:117
+msgid "Video Button Text"
+msgstr ""
+
+#. Name of the plugin
+#: includes/plugin.php:154 includes/plugin.php:178
+msgid "X Addons for Elementor"
+msgstr ""
+
+#: includes/plugin.php:131
+msgid "X-Addons for Elementor"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:44
+msgid "Xa Contact Card"
+msgstr ""
+
+#: includes/widgets/xa-cta.php:48
+msgid "XA Content"
+msgstr ""
+
+#: includes/widgets/xa-ex-image.php:42
+msgid "XA Experiences Image & Hover"
+msgstr ""
+
+#: includes/widgets/xa-brand-logos.php:25
+msgid "XA: Brand Logos Carousel"
+msgstr ""
+
+#: includes/widgets/xa-button.php:26
+msgid "XA: Button Default"
+msgstr ""
+
+#: includes/widgets/xa-circle-progress.php:25
+msgid "XA: Circle Progress Widget"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:27
+msgid "XA: Contact Card"
+msgstr ""
+
+#: includes/widgets/xa-contact-form7.php:31
+msgid "XA: Contact Form 7"
+msgstr ""
+
+#: includes/widgets/xa-cta.php:27
+msgid "XA: CTA Widget"
+msgstr ""
+
+#: includes/widgets/xa-ex-card.php:25
+msgid "XA: Experience Card"
+msgstr ""
+
+#: includes/widgets/xa-ex-image.php:25
+msgid "XA: Experiences Image"
+msgstr ""
+
+#: includes/widgets/xa-hero-personal.php:25
+msgid "XA: Hero Widget (Personal)"
+msgstr ""
+
+#: includes/widgets/xa-list-style.php:25
+msgid "XA: List Style"
+msgstr ""
+
+#: includes/widgets/xa-portfolio-slider.php:25
+msgid "XA: Portfolio Slider"
+msgstr ""
+
+#: includes/widgets/xa-progress-list.php:25
+msgid "XA: Progress List"
+msgstr ""
+
+#: includes/widgets/xa-section-title.php:25
+msgid "XA: Section Title"
+msgstr ""
+
+#: includes/widgets/xa-service-card.php:25
+msgid "XA: Service Card"
+msgstr ""
+
+#: includes/widgets/xa-testimonials.php:25
+msgid "XA: Testimonials Slider"
+msgstr ""
+
+#: includes/widgets/xa-contact-card.php:107
+#: includes/widgets/xa-list-style.php:82
+#: includes/widgets/xa-service-card.php:100
+msgid "Yes"
+msgstr ""
